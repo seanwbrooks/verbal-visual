@@ -4,6 +4,10 @@ body {
   margin: 0px;
 }
 
+img {
+  align-content: center;
+}
+
 #hero {
   background-image: url("../images/image1.jpg");
   background-size: cover;
@@ -35,20 +39,21 @@ body {
   z-index: -6;
 }
 
-.hero {
-  position: relative;
-  top: 50%;
-  right: 0%;
-  overflow: hidden;
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 7rem 7rem;
 }
 
 p {
   max-width: 410px;
 }
 
-.container {
-  transform: translateY(100%);
-  text-align: right;
+.btn {
+  border: 2px solid white;
+  text-decoration: none;
+  color: #FFF;
 }
 
 .navbar-icon {
@@ -59,7 +64,17 @@ p {
 .bar1, .bar2, .bar3 {
   width: 20px;
   height: 5px;
-  background-color: gray;
+  background-color: grey;
   margin: 6px 0;
   transition: .4s;
+}
+
+.page-header-title {
+  color: grey;
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  color: grey;
 }
